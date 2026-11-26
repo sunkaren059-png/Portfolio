@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eef0f0">
+  <title>BrightLab — Fullscreen Creative Flow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=2">
+<script type="module" src="../../image-interactions.js"></script></head>
+<body data-scene="1">
+  <header>
+    <a class="logo" href="#scene-1"><i></i><span>BRIGHTLAB</span></a>
+    <nav><a href="#scene-2">Discover</a><a href="#scene-3">Explore</a><a href="#scene-4">Create</a></nav>
+    <a class="start" href="#scene-5">Get started <span>↗</span></a>
+  </header>
+
+  <aside class="progress"><span class="current">01</span><i><b></b></i><span>05</span></aside>
+
+  <div class="fullscreen-stage" aria-hidden="true">
+    <div class="video-scene active"><video src="assets/video1.mp4" autoplay muted loop playsinline preload="auto"></video></div>
+    <div class="video-scene"><video src="assets/video2.mp4" muted loop playsinline preload="metadata"></video></div>
+    <div class="video-scene"><video src="assets/video3.mp4" muted loop playsinline preload="metadata"></video></div>
+    <div class="video-scene"><video src="assets/video5.mp4" muted loop playsinline preload="metadata"></video></div>
+    <div class="video-scene"><video src="assets/video7.mp4" muted loop playsinline preload="metadata"></video></div>
+  </div>
+
+  <div class="copy-stage">
+    <article class="copy active">
+      <p class="eyebrow">Creative technology · Ages 7–14</p>
+      <h1>Small steps.<br>Big ideas.</h1>
+      <p class="summary">让孩子在创造中学习，把好奇心变成真实可见的作品。</p>
+      <a class="button" href="#scene-2">Explore courses <span>→</span></a>
+    </article>
+    <article class="copy">
+      <p class="eyebrow">01 · Discover</p>
+      <h2>Look<br>closer.</h2>
+      <p class="summary">从身边的问题出发，学习观察、提问，并找到值得探索的方向。</p>
+      <ul><li>Observe</li><li>Question</li><li>Imagine</li></ul>
+    </article>
+    <article class="copy">
+      <p class="eyebrow">02 · Explore</p>
+      <h2>Learn through<br>play.</h2>
+      <p class="summary">拖动、组合、测试与重来。知识变成一次次亲手完成的体验。</p>
+      <strong class="metric">80% <small>hands-on</small></strong>
+    </article>
+    <article class="copy">
+      <p class="eyebrow">03 · Create</p>
+      <h2>Your world.<br>Your rules.</h2>
+      <p class="summary">游戏、动画、数字艺术与 AI 实验。技能服务于真正想表达的故事。</p>
+      <a class="text-link" href="#scene-5">Continue the journey ↗</a>
+    </article>
+    <article class="copy final-copy">
+      <p class="eyebrow">04 · Begin</p>
+      <h2>Their next idea<br>starts here.</h2>
+      <p class="summary">一次轻松的体验课，一段属于孩子自己的创造旅程。</p>
+      <a class="button" href="mailto:hello@brightlab.example">Book a free trial <span>↗</span></a>
+    </article>
+  </div>
+
+  <div class="footer-line"><span>Creative learning for curious kids</span><i></i><b>Scroll to explore ↓</b></div>
+
+  <main>
+    <section id="scene-1"></section>
+    <section id="scene-2"></section>
+    <section id="scene-3"></section>
+    <section id="scene-4"></section>
+    <section id="scene-5"></section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
